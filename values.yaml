@@ -1,0 +1,10 @@
+purelb:
+  lbnodeagent:
+    sendgarp: true
+  serviceGroup:
+    create: true
+    spec:
+      local:
+        subnet: 172.20.0.0/20
+        pool: 172.20.12.1-172.20.15.254
+        aggregation: default
