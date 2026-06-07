@@ -1,2 +1,1 @@
 # purelb
-purelb Helm chart

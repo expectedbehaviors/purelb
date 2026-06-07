@@ -1,0 +1,11 @@
+purelb:
+  lbnodeagent:
+    sendgarp: true
+  serviceGroup:
+    create: true
+    spec:
+      local:
+        # Override in your values: subnet and pool for your cluster network.
+        subnet: 10.0.0.0/24
+        pool: 10.0.0.1-10.0.0.254
+        aggregation: default
