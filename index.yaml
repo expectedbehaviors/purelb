@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  pure-lb:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-06-07T23:11:00.022802474Z"
+    dependencies:
+    - name: purelb
+      repository: https://gitlab.com/api/v4/projects/20400619/packages/helm/stable
+      version: 0.10.0
+    digest: 3ee4a39d6c6301868ffda7fc7723a31b2f8080aed123971d549a08976f31490c
+    name: pure-lb
+    urls:
+    - https://expectedbehaviors.github.io/purelb/pure-lb-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-06-07T23:11:00.020807031Z"
