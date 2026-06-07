@@ -5,6 +5,7 @@ purelb:
     create: true
     spec:
       local:
-        subnet: 172.20.0.0/20
-        pool: 172.20.12.1-172.20.15.254
+        # Override in your values: subnet and pool for your cluster network.
+        subnet: 10.0.0.0/24
+        pool: 10.0.0.1-10.0.0.254
         aggregation: default
